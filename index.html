@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h2>Contact Me</h2>
+    <form name="feedback" method="POST" data-netlify="true" data-netlify-recaptcha="true" enctype="multipart/form-data">
+        <!-- Required hidden input to register the form -->
+        <input type="hidden" name="form-name" value="feedback" />
+      
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+      
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+      
+        <label for="number">Phone Number</label>
+        <input type="tel" id="number" name="number" placeholder="Enter your Phone number" required />
+      
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Enter your message here..." required></textarea>
+      
+        <!-- Optional file upload -->
+        <label for="file">Upload File (Optional)</label>
+        <input type="file" id="file" name="file" />
+      
+        <!-- Netlify reCAPTCHA widget -->
+        <div data-netlify-recaptcha="true" style="margin: 1.2rem 0;"></div>
+      
+        <button type="submit">Send Message</button>
+      </form>
+      
+</body>
+</html>

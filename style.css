@@ -1,0 +1,291 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container styling */
+form {
+    background: linear-gradient(to right, #ffffff, #f0f0f0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Label styling */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Input and textarea styling */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+/* Input and textarea focus styling */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styling */
+form button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+form button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Submit button override */
+button[type="submit"] {
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 2px solid gold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: gold;
+    color: black;
+    transform: scale(1.05);
+}
+
+
+/* Form container styling */
+form {
+    background: linear-gradient(to right, #ffffff, #f0f0f0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Label styling */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Input and textarea styling */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+/* Input and textarea focus styling */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styling */
+form button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Submit button override */
+button[type="submit"] {
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 2px solid gold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: gold;
+    color: black;
+    transform: scale(1.05);
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-top: 20px; /* Add some space from the top */
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    height: 100vh;
+}
+
+/* General styles for larger screens */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background: linear-gradient(to right, #ffffff, #f0f0f0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        padding: 10px; /* Reduce padding for smaller screens */
+        height: auto; /* Allow scrolling on smaller screens */
+        justify-content: flex-start; /* Align content to the top */
+    }
+
+    form {
+        width: 100%; /* Take full width on smaller screens */
+        max-width: 100%; /* Remove max-width restriction */
+        padding: 10px; /* Reduce padding for smaller screens */
+        box-shadow: none; /* Remove shadow for a cleaner look */
+        border: 1px solid #ddd; /* Add a subtle border for better visibility */
+    }
+
+    h2 {
+        font-size: 18px; /* Adjust heading size for smaller screens */
+        margin-top: 10px; /* Add some space from the top */
+        margin-bottom: 10px; /* Reduce bottom margin */
+        text-align: center; /* Ensure heading is centered */
+    }
+
+    input, textarea {
+        font-size: 14px; /* Adjust font size for inputs */
+        padding: 8px; /* Reduce padding for smaller screens */
+        margin-bottom: 10px; /* Reduce spacing between inputs */
+    }
+
+    button {
+        font-size: 14px; /* Adjust button font size */
+        padding: 10px; /* Ensure buttons are easy to tap */
+        margin-top: 10px; /* Add spacing above the button */
+    }
+}
